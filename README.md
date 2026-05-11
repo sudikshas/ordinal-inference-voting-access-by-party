@@ -148,7 +148,6 @@ test <- wilcox.test(
 - **Operationalization decisions have downstream effects**: How you define "Democrat" or "voter" materially changes your sample — explicit, theory-grounded decisions (e.g., including leaners) strengthen rigor
 - **Normalizing for group size**: Recognizing that raw counts are misleading when group sizes differ (478 vs. 426) and pivoting to percentages for visualization is a key analytical judgment
 
-### Substantive
 - The vast majority of both Democrats (83.7%) and Republicans (91.1%) reported no difficulty — the effect is concentrated in the tail of difficulty reporters
 - Democrats were more represented at every difficulty level above "not difficult at all," including being the only group with any "extremely difficult" respondents
 - The finding challenges a naive assumption that rural Republican voters might face more difficulty due to geographic access issues
@@ -170,12 +169,6 @@ This project demonstrates several skills that are directly relevant to data scie
 | **Communication** | Clean, structured report communicating technical findings to a non-technical audience |
 | **Ethical awareness** | Acknowledges observational design limits; does not overclaim causality |
 | **R / reproducible research** | Analysis conducted in R Markdown for full reproducibility |
-
----
-
-## Interview Pitch
-
-> *"I analyzed whether Democratic or Republican voters experience more difficulty voting, using data from the 2022 ANES Pilot Study — a nationally representative survey of 1,500 U.S. voters. The key challenge was that voting difficulty is an ordinal Likert variable, so I used a one-sided Wilcoxon rank-sum test instead of a t-test. The results showed that Democrats experience statistically significantly more voting difficulty than Republicans, with a p-value of 0.0004. That said, the effect size was small — a rank biserial correlation of −0.11 — which I think is the most honest and interesting part of the finding. It highlights the importance of distinguishing statistical from practical significance. The project gave me hands-on experience operationalizing abstract concepts into measurable variables, selecting the right statistical test for the data type, and communicating nuanced results clearly."*
 
 ---
 
